@@ -41,9 +41,9 @@ export default function LoginForm() {
       // validaciones
       const noesvacio = formulario.codigo.trim().length > 0 && formulario.clave.trim().length > 0;
       if (noesvacio) {
-        const { data } = await axios.post(`${URLAPIGENERAL}/authlogin`, formulario, setLoading(true));
+        // const { data } = await axios.post(`${URLAPIGENERAL}/authlogin`, formulario, setLoading(true));
         // console.log(data);
-        window.localStorage.setItem('usuariosoporte',JSON.stringify(data.user[0].data))
+        // window.localStorage.setItem('usuariosoporte',JSON.stringify(data.user[0].data))
         // console.log(PATH_OPSISTEMA.inicio)
         navegacion(PATH_OPSISTEMA.inicio);
       } else {
