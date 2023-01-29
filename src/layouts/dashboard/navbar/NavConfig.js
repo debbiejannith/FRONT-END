@@ -30,34 +30,34 @@ const navConfig = [
   {
     subheader: 'SOPORTE',
     items: [
-      {
-        title: 'Ticket',
-        path: PATH_OPSISTEMA.inicio,
-        icon: ICONS.ticket
-      },
+      // {
+      //   title: 'Ticket',
+      //   path: PATH_OPSISTEMA.inicio,
+      //   icon: ICONS.ticket
+      // },
       {
         title: 'Informe',
         path: PATH_OPSISTEMA.informeSoporte,
         icon: ICONS.analytics
       },
-      {
-        title: 'Requerimiento',
-        icon: ICONS.invoice,
-        children: [
-          { title: 'Asignar', path: PATH_OPSISTEMA.requerimiento.asignar },
-          { title: 'Tipo', path: PATH_OPSISTEMA.requerimiento.tipo },
-          { title: 'Solucion', path: PATH_OPSISTEMA.requerimiento.solucion }
-        ],
-      },
-      {
-        title: 'Mantenimiento',
-        icon: ICONS.kanban,
-        children: [
-          { title: 'Empresa', path: PATH_OPSISTEMA.mantenimiento.empresa.inicio },
-          { title: 'Contacto', path: PATH_OPSISTEMA.mantenimiento.contacto.inicio },
-          { title: 'Operador', path: PATH_OPSISTEMA.mantenimiento.operador.inicio }
-        ],
-      },
+      // {
+      //   title: 'Requerimiento',
+      //   icon: ICONS.invoice,
+      //   children: [
+      //     { title: 'Asignar', path: PATH_OPSISTEMA.requerimiento.asignar },
+      //     { title: 'Tipo', path: PATH_OPSISTEMA.requerimiento.tipo },
+      //     { title: 'Solucion', path: PATH_OPSISTEMA.requerimiento.solucion }
+      //   ],
+      // },
+      // {
+      //   title: 'Mantenimiento',
+      //   icon: ICONS.kanban,
+      //   children: [
+      //     { title: 'Empresa', path: PATH_OPSISTEMA.mantenimiento.empresa.inicio },
+      //     { title: 'Contacto', path: PATH_OPSISTEMA.mantenimiento.contacto.inicio },
+      //     { title: 'Operador', path: PATH_OPSISTEMA.mantenimiento.operador.inicio }
+      //   ],
+      // },
       
       
     ],
