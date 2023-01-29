@@ -1,20 +1,12 @@
 import { useContext } from 'react';
-import {
-  Grid,
-  TextField,
-  InputAdornment,
-  IconButton,
-  Button,
-  FormControlLabel,
-  Checkbox,
-} from '@mui/material';
+import { Grid, TextField, InputAdornment, IconButton, Button, FormControlLabel, Checkbox } from '@mui/material';
 import es from 'date-fns/locale/es';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import DesktopDatePicker from '@mui/lab/DesktopDatePicker';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import ViewComfyRoundedIcon from '@mui/icons-material/ViewComfyRounded';
+// import ViewComfyRoundedIcon from '@mui/icons-material/ViewComfyRounded';
 import { InformeSoporteContext } from '../contextos/informeSoporteContexto';
 
 function FormularioInformeSoporte() {
@@ -121,7 +113,7 @@ function FormularioInformeSoporte() {
         />
       </Grid>
       <Grid item md={1.2} sm={4} xs={12}>
-        <Button fullWidth variant="text" type="submit" startIcon={<SearchRoundedIcon />}>
+        <Button fullWidth variant="text" startIcon={<SearchRoundedIcon />} onClick={() => {}}>
           Buscar
         </Button>
       </Grid>
@@ -130,11 +122,11 @@ function FormularioInformeSoporte() {
           Correo
         </Button>
       </Grid>
-      <Grid item md={1.2} sm={4} xs={12}>
+      {/* <Grid item md={1.2} sm={4} xs={12}>
         <Button disabled fullWidth variant="text" startIcon={<ViewComfyRoundedIcon />} onClick={() => {}}>
           Excel
         </Button>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 }

@@ -13,7 +13,6 @@ function CabeceraInforme() {
           fullWidth
           variant="contained"
           onClick={() => {
-            // obtenerTicket();
           }}
           startIcon={<InsertDriveFileRoundedIcon />}
         >
