@@ -83,7 +83,7 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
         )}
 
         {/* <Searchbar /> */}
-        <Typography sx={{ ml: 1, mr: 1, color: 'text.primary', fontSize: '1rem', fontWeight: 'bold' }}> SOPORTE BIROBID </Typography>
+        <Typography sx={{ ml: 1, mr: 1, color: 'text.primary', fontSize: '1rem', fontWeight: 'bold' }}> SOFTGREEN S.A. </Typography>
 
         <Box sx={{ flexGrow: 1 }} />
         <Stack direction="row" alignItems="center" spacing={{ xs: 0.5, sm: 1.5 }}>

@@ -115,7 +115,7 @@ function Informe() {
         enviadorcorreo: true
     })
     const [formularioemail, setFormularioemail] = useState({
-        nombre: 'SOPORTE BIROBID',
+        nombre: 'SOFTGREEN S.A.',
         email: '',
         mensaje: ''
     });
@@ -223,7 +223,7 @@ function Informe() {
                         if (dataResponse.status === true) {
                             mensajeSistema(`El correo se envio correctamento a ${formularioemail.email}`, 'success')
                             setFormularioemail({
-                                nombre: 'SOPORTE BIROBID',
+                                nombre: 'SOFTGREEN S.A.',
                                 email: '',
                                 mensaje: ''
                             })

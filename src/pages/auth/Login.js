@@ -90,8 +90,8 @@ export default function Login() {
 
         {mdUp && (
           <SectionStyle>
-            <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
-              Bienvenido Soporte Birobid
+            <Typography variant="h4" sx={{ px: 5, mt: 15, mb: 5 }}>
+              Bienvenido Soporte SOFTGREEN S.A.
             </Typography>
             <Image
               visibleByDefault
@@ -124,8 +124,8 @@ export default function Login() {
             </Stack>
 
             <Alert severity="info" sx={{ mb: 3 }}>
-              <strong> SOPORTE BIROBID </strong> ( SISTEMA SOPORTE ) es propiedad Intelectual de
-              <strong> BiroBID S.A. </strong> Cualquier copia parcial o total es penado por las leyes que rigen los derechos Intelectuales
+              <strong> SOPORTE SOFTGREEN S.A. </strong> ( SISTEMA SOPORTE ) es propiedad Intelectual de
+              <strong> SOFTGREEN S.A. </strong> Cualquier copia parcial o total es penado por las leyes que rigen los derechos Intelectuales
             </Alert>
 
             <LoginForm />
