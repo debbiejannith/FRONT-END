@@ -1,5 +1,5 @@
 // routes
-import { PATH_OPSISTEMA } from './routes/paths';
+// import { PATH_OPSISTEMA } from './routes/paths';
 
 // API
 // ----------------------------------------------------------------------
@@ -78,7 +78,7 @@ export const usuario = JSON.parse(window.localStorage.getItem('usuario'))
 export const defaultSettings = {
   themeMode: 'light',
   themeDirection: 'ltr',
-  themeColorPresets: 'red',
+  themeColorPresets: 'blue',
   themeLayout: 'horizontal',
   themeStretch: false,
 };
