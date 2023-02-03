@@ -15,7 +15,7 @@ Logologin.propTypes = {
 export default function Logologin({ disabledLink = false, sx }) {
   
   const logo = (
-    <Box sx={{ width: 180, height: 50, ...sx }}>
+    <Box sx={{ width: 250, height: 80, ...sx }}>
       <img src={logologin} alt="logo"/>
     </Box>
   );
